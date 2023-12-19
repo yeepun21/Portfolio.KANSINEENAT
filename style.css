@@ -1,14 +1,17 @@
 /* GENERAL */
 
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
-
-* {
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree&family=Cormorant+Garamond&family=Itim&display=swap');
+</style>*
+ {
   margin: 0;
   padding: 0;
 }
 
 body {
-  font-family: "Poppins", sans-serif;
+  
+font-family: 'Cormorant Garamond', serif;
+
 }
 
 html {
@@ -16,7 +19,7 @@ html {
 }
 
 p {
-  color: rgb(85, 85, 85);
+  color: rgb(0, 0, 0);
 }
 
 /* TRANSITION */
@@ -244,7 +247,7 @@ section {
 .btn-color-1,
 .btn-color-2:hover {
   background: rgb(53, 53, 53);
-  color: white;
+  color: rgb(255, 255, 255);
 }
 
 .btn-color-1:hover {
@@ -298,7 +301,7 @@ section {
 .details-container {
   padding: 1.5rem;
   flex: 1;
-  background: white;
+  background: #ffd597;
   border-radius: 2rem;
   border: rgb(53, 53, 53) 0.1rem solid;
   border-color: rgb(163, 163, 163);
@@ -363,7 +366,7 @@ article .icon {
 
 .color-container {
   border-color: rgb(163, 163, 163);
-  background: rgb(250, 250, 250);
+  background: #DCBF85(250, 250, 250);
 }
 
 .project-img {
